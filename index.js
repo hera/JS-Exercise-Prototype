@@ -118,10 +118,10 @@ Baby.prototype.play = function () {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When in global scope, this will point to window object
+  2. When 'this' is used in a method and the method is called after dot (for example obj.method() ), this will point to the object before dot (obj)
+  3. When 'new' keyword is used, this will point to the object which is being created.
+  4. I could set 'this' explicitly using call, apply
 */
 
 
